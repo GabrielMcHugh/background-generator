@@ -1,0 +1,60 @@
+:root {
+	--right-bg-color:#ff6375;
+	--left-bg-color:#ffe14e;
+}
+
+
+div {
+	font: 'Raleway', sans-serif;
+    background-size: cover;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    margin: 0;
+    background-color:#ccc;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+    background: linear-gradient(to right, var(--right-bg-color), var(--left-bg-color)); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+h4 {
+    font: 1000 2.2vw 'Raleway', sans-serif;
+    text-transform: none;
+    letter-spacing: 0;
+    margin: 0 auto;
+    width: 15%;
+    text-indent: center;
+    border-radius: 1em;
+    border: 2px solid;
+    background-color: grey;
+    line-height: 300%;
+    mix-blend-mode: hard-light;
+
+
+}
+
+h4:hover {
+    cursor: pointer;
+}
